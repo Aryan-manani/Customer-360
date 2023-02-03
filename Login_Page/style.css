@@ -1,0 +1,57 @@
+@media(min-width: 768px) and (max-width:992px){
+    .lamp{
+        padding-left: 400px;
+        height: 100px;
+    }
+}
+
+@media(min-width:993px){
+    .lamp{
+        padding-left: 500px;
+        height: 125px;
+    }
+}
+
+@media(max-width:767px){
+    .lamp{
+        display: none;
+    }
+    .man{
+        display: none;
+    }
+    .flex-item-1{
+        margin-top: 100px;
+    }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #feffff;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 120px;
+    width: 190px;
+}
+
+.man{
+    height: 350px;
+    width: 350px;
+}
+
+.submit{
+    width: 300px;
+    height: 45px;
+}
+
+.forgot-password{
+    font-size: larger;
+    text-align: end;
+}
+

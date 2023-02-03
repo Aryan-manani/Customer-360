@@ -1,0 +1,150 @@
+/* For Laptop/PC */
+@media(min-width:1251px) {
+    .customer {
+        width: 680px;
+        height: 352px;
+        margin: 20px 0px 20px 50px;
+    }
+
+    .agent {
+        width: 456px;
+        height: 352px;
+        margin: 20px auto;
+    }
+
+    .account {
+        width: 1160px;
+        height: 248px;
+        margin: 8px 0px 20px 50px;
+    }
+
+    .policy {
+        width: 1160px;
+        height: 216px;
+        margin: 24px 0px 104px 50px;
+    }
+}
+
+/* For Tablet */
+@media(max-width:1250px){
+    .row {
+        flex-direction: column;
+    }
+
+    .customer {
+        width: 650px;
+        height: 375px;
+        margin: 40px auto;
+    }
+
+    .agent {
+        width: 650px;
+        margin: auto auto;
+    }
+
+    .account {
+        width: 650px;
+        margin: 20px auto;
+    }
+
+    .policy {
+        width: 650px;
+        margin: 20px auto;
+    }
+}
+
+
+/* For phone */
+@media(max-width:692px) {
+    .card-body{
+        flex-direction: column;
+    }
+    .customer {
+        width: 250px;
+        height: 780px;
+        margin: auto auto;
+    }
+
+    .agent {
+        width: 250px;
+        margin: 20px auto;
+    }
+
+    .account{
+        width: 250px;
+        margin: auto auto;
+    }
+    .policy {
+        width: 250px;
+        margin: 20px auto;
+    }
+}
+
+@media(min-width:992px){
+    .end_content{
+        margin-left: 500px;
+    }
+    
+}
+
+@media(max-width:692px){
+    .customer{
+        margin-top: 125px;
+    }
+}
+
+@media(max-width:641px) {
+    .navbar{
+        height: 150px;
+    }
+    .logo{
+        margin-left: 100px;
+    }
+    .nav-end-content{
+        margin: auto auto;
+    }
+}
+
+@media(min-width:642px) {
+    .navbar{
+        height: 90px;
+    }
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+ul{
+    padding: auto;
+}
+
+.footer{
+    background-color: rgb(235, 247, 255);
+    margin-top: auto;
+}
+
+.Links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Socials{
+    margin: auto 30px;
+}
+
+@media(min-width:642px) {
+    .logo{
+        margin-left: 40px;
+    }
+}
